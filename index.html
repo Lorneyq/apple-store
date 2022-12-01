@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iphone-market</title>
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./Favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="upward" onclick="scrollTopTop()"></div>
+    <header class="banner">
+      <div class="container">
+        <nav class="nav">
+          <button class="menu-btn" type="button">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+          </button>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#ph-1" class="menu-link">Что нового</a>
+            </li>
+            <li class="menu-item">
+              <a href="#ph-2" class="menu-link">Цвет</a>
+            </li>
+            <li class="menu-item2">
+              <a href="#ph-3" class="menu-link">Заказать</a>
+            </li>
+          </ul>
+          <a href="/" class="logo"></a>
+          <a href="tel:+380504565656" class="phone-number">+38 050-456-56-56</a>
+        </nav>
+      </div>
+    </header>
+    <main class="mainp">
+      <div class="bgr-main">
+        <section class="present">
+          <h1 class="t-main">iphone 14 pro</h1>
+          <img
+            class="img-main"
+            src="./img/iphone_14_pro.svg"
+            alt="iphone_14_pro"
+          />
+          <a class="btn-1" href="#ph-3">Выбрать</a>
+        </section>
+      </div>
+      <section class="about-ph" id="ph-1">
+        <h1 class="t-about">Что нового</h1>
+        <div class="inform">
+          <div class="text-inform">
+            <p>
+              Все модели оснащены однокристальной системой A16 Bionic,
+              48-мегапиксельной основной камерой и экранами ProMotion с защитой
+              Ceramic Shield и частотным диапазоном 1 — 120 Гц, а также
+              ускоренной памятью LPDDR5. Дизайн линейки обновлен, на фронтальной
+              панели смартфонов два выреза.
+            </p>
+            <p>
+              Все iPhone 14 в США будут продаваться без лотка для SIM-карт:
+              производитель заявляет, что улучшенная технология eSIM позволит
+              перенести старые электронные сим-карты на новые смартфоны.
+            </p>
+            <p>
+              Обновлены фронтальная камера (она снабжена автофокусом и быстрее
+              распознает пользователя в условиях недостаточной освещенности) и
+              сенсор основной камеры.
+            </p>
+            <p class="last-txt">
+              <strong>
+                iPhone 14 Pro вышел в новом дизайне — без фирменной «челки».
+                Также в ассортименте появился новый цвет. В смартфоне, в отличие
+                от «обычных» 14-х айфонов, установлен процессор A16 Bionic,
+                который может за секунду производить 4 трлн операций с фото.
+              </strong>
+            </p>
+          </div>
+          <img
+            class="iphone-p-m"
+            src="./img/Apple-iPhone-14-Pro-Max 1.jpg"
+            alt="apple-iphone-14-pro-max"
+          />
+        </div>
+      </section>
+      <section class="choose" id="ph-2">
+        <h1 class="choose-text">Выбери свой цвет</h1>
+        <ul class="choose-info">
+          <li class="color-item">
+            <img src="./img/silver 1.jpg" alt="Silver-iphone" />
+            <h1 class="color-txt">Silver</h1>
+            <h2 class="color-ru">Серебристый</h2>
+          </li>
+          <li class="color-item">
+            <img src="./img/purple.jpg" alt="Purple-iphone" />
+            <h1 class="color-txt">Deep purple</h1>
+            <h2 class="color-ru">Темно фиолетовый</h2>
+          </li>
+          <li class="color-item">
+            <img src="./img/gold.jpg" alt="Gold-iphone" />
+            <h1 class="color-txt">Gold</h1>
+            <h2 class="color-ru">Золотой</h2>
+          </li>
+          <li class="color-item">
+            <img src="./img/black.jpg" alt="Space-black-iphone" />
+            <h1 class="color-txt">Space Black</h1>
+            <h2 class="color-ru">Космический черный</h2>
+          </li>
+        </ul>
+      </section>
+      <section class="order" id="ph-3">
+        <div class="zakaz">
+          <form class="contacts-form" action="#">
+            <h1 class="main-zakaz">Хочешь Iphone 14 pro?</h1>
+            <input class="contact-input" type="text" placeholder="Ваше имя" />
+            <input
+              class="contact-input"
+              type="text"
+              placeholder="Номер телефона"
+            />
+            <p class="manager">
+              В ближайшее время наш менеджер свяжется с Вами
+            </p>
+            <button class="sub" type="submit">Заказать</button>
+          </form>
+          <img class="apple-photo" src="./img/latw-s.jpg" alt="iphone-apple" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="podval">
+      <div class="grown">
+        <a class="konf" href="#">Политика конфиденциальности</a>
+        <a href="/" class="logo"></a>
+        <a href="tel:+380504565656" class="phone-number-footer"
+          >+38 050-456-56-56</a
+        >
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
