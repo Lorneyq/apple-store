@@ -18,7 +18,7 @@ body {
   right: 40px;
   width: 70px;
   height: 70px;
-  background: url(./img/but-up.png);
+  background: url(../img/but-up.png);
   background-size: cover;
   z-index: l;
   cursor: pointer;
@@ -54,12 +54,12 @@ footer {
   color: #ffffff;
 }
 .logo {
-  background-image: url(./img/logo.svg);
+  background-image: url(../img/logo.svg);
   width: 39.06px;
   height: 47.76px;
 }
 .logo:hover {
-  background-image: url(./img/logo-white.svg);
+  background-image: url(../img/logo-white.svg);
   width: 39.06px;
   height: 47.76px;
 }
